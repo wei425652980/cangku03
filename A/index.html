@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,
+			initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/index.js"></script>
+		<title></title>
+	</head>
+
+	<body ng-app="app">
+		<nav>
+			<img src="img/2017-09-06_140834.png"/>
+			<div>
+				<img src="img/2017-09-06_141002.png" />
+				<input type="text" value="车品五折狂欢购"/>
+			</div>
+			<img src="img/2017-09-06_140950.png" />
+			<span>登录</span>
+		</nav>
+		<!--最外层容器-->
+		<div id="banner" class="swiper-container">
+			<!--项目容器-->
+			<ul class="swiper-wrapper">
+				<!--项目内容-->
+				<li class="swiper-slide"><img src="img/lunbo1.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo2.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo3.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo4.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo5.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo6.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo7.jpg" alt="" /></li>
+				<li class="swiper-slide"><img src="img/lunbo8.jpg" alt="" /></li>
+			</ul>
+			<!--小圆点-->
+			<div class="swiper-pagination"></div>
+		</div>
+		
+		<div class="fen">
+			<a ui-sref="shou"><img src="img/sort1.png"><p>分类</p></a>
+			<a ui-sref="chong"><img src="img/sort2.png"><p>充值中心</p></a>
+			<a ui-sref="dian"><img src="img/sort3.png"><p>电器商城</p></a>
+			<a ui-sref="ling"><img src="img/sort4.png"><p>领券中心</p></a>
+			<a ui-sref="guo"><img src="img/sort5.png"><p>国美电器</p></a>
+			<a ui-sref="jin"><img src="img/sort6.png"><p>金融理财</p></a>
+			<a ui-sref="chao"><img src="img/sort7.png"><p>国美超市</p></a>
+			<a ui-sref="hai"><img src="img/sort8.png"><p>海外购</p></a>
+			<a ui-sref="sheng"><img src="img/sort9.png"><p>生活服务</p></a>
+			<a ui-sref="wo"><img src="img/sort10.png"><p>我的</p></a>			
+		</div>
+		<div id="nei">
+			<ui-view></ui-view>
+		</div>
+	</body>
+</html>

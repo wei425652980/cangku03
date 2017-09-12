@@ -1,0 +1,116 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+nav {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  line-height: 5rem; }
+  nav span {
+    font-size: 1.6rem;
+    padding-right: 0.5rem; }
+  nav img {
+    height: 60%;
+    margin: auto; }
+  nav div {
+    width: 60%;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-around; }
+    nav div img {
+      margin: auto 1rem;
+      height: 60%; }
+    nav div input {
+      width: 80%;
+      height: 100%;
+      border: 1px solid #F6F6F6;
+      background: #F6F6F6;
+      font-size: 1.6rem;
+      color: #CCCCCC;
+      border-radius: 20px; }
+
+#banner img {
+  width: 100%; }
+
+.fen {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .fen a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black; }
+    .fen a img {
+      width: 100%;
+      height: 60%; }
+
+.guang {
+  width: 100%;
+  height: 8rem; }
+  .guang img {
+    width: 100%; }
+
+.tou {
+  width: 100;
+  height: 3rem;
+  border-top: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-around;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem; }
+  .tou span {
+    height: 1.8rem;
+    line-height: 2rem;
+    background: #FF5C5C;
+    margin: 0.7rem 0.3rem;
+    color: white; }
+  .tou p {
+    font-size: 3rem;
+    color: #CCCCCC; }
+
+.dao {
+  width: 100%;
+  height: 3rem;
+  border-left: 3px solid #FF5C5C;
+  line-height: 3rem;
+  font-size: 1.8rem; }
+  .dao span {
+    border: 1px solid #CCCCCC;
+    color: #FF5C5C; }
+  .dao .you {
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: space-around; }
+    .dao .you img {
+      width: 20%;
+      height: 80%; }
+
+.tu {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around; }
+  .tu li {
+    width: 18%;
+    text-align: center; }
+    .tu li img {
+      width: 100%; }
+    .tu li span {
+      color: #CCCCCC; }
+
+/*# sourceMappingURL=style.css.map */
